@@ -7,7 +7,7 @@ const getColor = () => {
 
     document.body.style.background = randomCode;
 
-    
+    navigator.clipboard.writeText(randomCode);
 }
 
 
